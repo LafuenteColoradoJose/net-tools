@@ -21,9 +21,9 @@ export default function Footer() {
             <svg
               fill="currentColor"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="0"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="0"
               className="w-5 h-5 text-secondary hover:scale-105 hover:text-opacity-100 hover:text-terciary"
               viewBox="0 0 24 24"
             >
@@ -42,9 +42,9 @@ export default function Footer() {
             <svg
               fill="currentColor"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="0"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="0"
               className="w-5 h-5 text-secondary hover:scale-105 hover:text-opacity-100 hover:text-terciary"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
