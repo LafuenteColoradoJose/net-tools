@@ -24,10 +24,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className="flex flex-col self-start justify-between h-dvh"
+        className="flex flex-col content-start justify-between h-dvh"
       >
-        <Navbar />
-        <Header />
+        <section className="flex flex-col gap-0">
+          <Navbar />
+          <Header />
+        </section>
         {children}
         <Footer />
 
