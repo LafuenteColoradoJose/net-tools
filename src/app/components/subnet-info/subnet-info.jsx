@@ -111,9 +111,6 @@ export default function SubnetInfo() {
                             <p className="text-red-500">{result.message}</p>
                         ) : (
                             <>
-                                {/* <p className="text-lg">
-                                    Dirección de Red: {result.networkAddress}
-                                </p> */}
                                 <p className="text-lg">
                                     Dirección de Broadcast: {result.broadcastAddress}
                                 </p>
