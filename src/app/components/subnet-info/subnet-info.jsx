@@ -29,7 +29,6 @@ export default function SubnetInfo() {
             return 256 - Math.pow(2, 8 - (prefixNum % 8));
         });
 
-        const networkAddress = ipParts.map((part, i) => part & subnetMask[i]).join(".");
         const broadcastAddress = ipParts.map((part, i) => part | (~subnetMask[i] & 255)).join(".");
         const startIp = [...ipParts];
         startIp[3] += 1;
@@ -38,7 +37,7 @@ export default function SubnetInfo() {
 
         setResult({
             message: "",
-            networkAddress: networkAddress,
+            networkAddress: ip,
             broadcastAddress: broadcastAddress,
             startIp: startIp.join("."),
             endIp: endIp.join("."),
@@ -112,9 +111,9 @@ export default function SubnetInfo() {
                             <p className="text-red-500">{result.message}</p>
                         ) : (
                             <>
-                                <p className="text-lg">
+                                {/* <p className="text-lg">
                                     Dirección de Red: {result.networkAddress}
-                                </p>
+                                </p> */}
                                 <p className="text-lg">
                                     Dirección de Broadcast: {result.broadcastAddress}
                                 </p>
