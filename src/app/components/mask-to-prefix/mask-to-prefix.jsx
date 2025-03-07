@@ -53,10 +53,10 @@ export default function MaskToPrefix() {
                             Calcular Prefijo
                         </button>
                         <div className="mt-4 space-y-2">
-                            <p className="text-lg font-medium text-center">
+                            <p className="text-lg font-medium text-center text-gray-700">
                                 Prefijo: {prefix}
                             </p>
-                            <p className="text-lg font-medium text-center">
+                            <p className="text-lg font-medium text-center text-gray-700">
                                 {result.message}
                             </p>
                         </div> {/* Cierre de div */}

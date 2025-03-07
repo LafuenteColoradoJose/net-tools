@@ -69,7 +69,7 @@ export default function PrefixToMask() {
                             Calcular
                         </button>
                     </div>  
-                    <div className="mt-4 space-y-2">
+                    <div className="mt-4 space-y-2 text-gray-700">
                         <p className="text-lg font-medium text-center">
                             {result.message}
                         </p>

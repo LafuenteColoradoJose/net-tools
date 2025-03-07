@@ -100,7 +100,7 @@ export default function NetworkAddress() {
                 {result && (
                     <div className="mt-6 text-center">
                         {result.message && (
-                            <p className="text-lg">{result.message}</p>
+                            <p className="text-lg text-gray-700">{result.message}</p>
                         )}
                     </div>
                 )}
