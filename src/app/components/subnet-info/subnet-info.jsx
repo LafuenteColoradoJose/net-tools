@@ -108,7 +108,7 @@ export default function SubnetInfo() {
                 {result && (
                     <div className="mt-6 text-center">
                         {result.message ? (
-                            <p className="text-red-500">{result.message}</p>
+                            <p className="text-gray-700">{result.message}</p>
                         ) : (
                             <>
                                 <p className="text-lg">
