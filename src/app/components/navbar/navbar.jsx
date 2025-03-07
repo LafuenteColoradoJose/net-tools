@@ -14,12 +14,13 @@ export default function Navbar() {
     <>
       <nav className="py-4 text-center text-white bg-gray-800">
         <div className="flex items-center justify-between px-4">
-          <div className="md:hidden"></div>
+          <div className="sm:hidden">
             <button onClick={toggleMenu} className="text-white focus:outline-none">
               {isOpen ? <FaTimes /> : <FaBars />}
             </button>
+            </div>
         </div>
-        <div className={`md:flex ${isOpen ? 'block' : 'hidden'} justify-center`}>
+        <div className={`sm:flex ${isOpen ? 'block' : 'hidden'} justify-center`}>
           <ul className="flex flex-wrap justify-center text-sm md:flex-row">
             <li className='flex flex-col items-center justify-center w-16 h-16 m-2 border-2 border-gray-200 rounded-xl sm:w-24 sm:h-24 md:h-12 md:m-1'>
               <Link href="/" className="hover:text-gray-300">Home</Link>
