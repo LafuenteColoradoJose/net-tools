@@ -70,7 +70,7 @@ export default function SubnetInfo() {
                             <div className="relative">
                                 <input
                                     type="text"
-                                    className="w-full p-4 text-sm border-gray-200 rounded-lg shadow-xs"
+                                    className="w-full h-12 px-4 py-2 text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white"
                                     placeholder="Dirección de Red"
                                     value={ip}
                                     onChange={(e) => setIp(e.target.value)}
@@ -88,7 +88,7 @@ export default function SubnetInfo() {
                             <div className="relative">
                                 <input
                                     type="text"
-                                    className="w-full p-4 text-sm border-gray-200 rounded-lg shadow-xs"
+                                    className="w-full h-12 px-4 py-2 text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white"
                                     placeholder="Prefijo"
                                     value={prefix}
                                     onChange={(e) => setPrefix(e.target.value)}

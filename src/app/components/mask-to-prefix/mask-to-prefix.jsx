@@ -37,7 +37,7 @@ export default function MaskToPrefix() {
                                     <input
                                         type="text"
                                         id="mask"
-                                        className="w-full p-4 text-sm border-gray-200 rounded-lg shadow-xs"
+                                        className="w-full h-12 px-4 py-2 text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white"
                                         placeholder="Máscara"
                                         value={mask}
                                         onChange={(e) => setMask(e.target.value)}

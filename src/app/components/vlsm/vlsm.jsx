@@ -225,7 +225,7 @@ export default function SubnetCalculator() {
               setIpWithPrefix(e.target.value);
               setCalculationSuccess(false); // Limpiar resultados al cambiar la IP
             }} 
-            className="w-full p-2 border" 
+            className="w-full h-12 px-4 py-2 text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white" 
             placeholder="Ej: 192.168.1.0/24" 
           />
         </div>
@@ -235,7 +235,7 @@ export default function SubnetCalculator() {
             type="number" 
             value={subnetCount} 
             onChange={handleSubnetCountChange} 
-            className="w-full p-2 border" 
+            className="w-full h-12 px-4 py-2 text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white" 
             placeholder="Ej: 3" 
           />
         </div>
@@ -246,7 +246,7 @@ export default function SubnetCalculator() {
               type="number" 
               value={subnet.hosts} 
               onChange={(e) => handleSubnetChange(index, "hosts", e.target.value)} 
-              className="w-full p-2 border" 
+              className="w-full h-12 px-4 py-2 text-gray-700 bg-gray-200 rounded-lg focus:outline-none focus:bg-white" 
               placeholder="Ej: 50" 
             />
           </div>
